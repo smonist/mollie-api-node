@@ -1,5 +1,5 @@
 {
-  "name": "@mollie/api-client",
+  "name": "@mollie/api-client-inline-pem",
   "version": "2.2.0",
   "license": "BSD-3-Clause",
   "description": "Official Mollie API client for Node - inline pem file fork",
