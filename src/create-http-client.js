@@ -1,6 +1,4 @@
-import fs from 'fs';
 import https from 'https';
-import path from 'path';
 import axios from 'axios';
 import qs from 'qs';
 
@@ -24,7 +22,7 @@ export default function createHttpClient(options = {}) {
   });
 
   options.httpsAgent = new https.Agent({
-    cert: fs.readFileSync(path.resolve(__dirname, cert)),
+    cert: cert,
   });
 
   options.paramsSerializer = options.paramsSerializer || qs.stringify;
