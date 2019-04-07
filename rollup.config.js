@@ -13,6 +13,6 @@ export default {
     json(),
     babel({ exclude: 'node_modules/**', plugins: ['@babel/external-helpers'] }),
     includePaths({ paths: ['src'] }),
-    url({ limit: 0, include: ['**/*.pem'] }),
+    url({ limit: 13370815, include: ['**/*.pem'] }),
   ],
 };
